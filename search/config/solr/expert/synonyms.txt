@@ -1,0 +1,72 @@
+# The ASF licenses this file to You under the Apache License, Version 2.0
+# (the "License"); you may not use this file except in compliance with
+# the License.  You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+#-----------------------------------------------------------------------
+#some test synonym mappings unlikely to appear in real input text
+aaafoo => aaabar
+bbbfoo => bbbfoo bbbbar
+cccfoo => cccbar cccbaz
+fooaaa,baraaa,bazaaa
+
+# Some synonym groups specific to this example
+GB,gib,gigabyte,gigabytes
+MB,mib,megabyte,megabytes
+Television, Televisions, TV, TVs
+#notice we use "gib" instead of "GiB" so any WordDelimiterFilter coming
+#after us won't split it into two words.
+
+# Synonym mappings can be used for spelling correction too
+pixima => pixma
+
+Makeup,natural makeup,natural look,organic,no chemicals,wholesome,natural makeup,contouring,contour,highlights,highlighting,highlighter,eyeliner,eyeshadow,foundation,blush,lipstick,lipgloss,lip color,mascara,eye makeup,cat eye,smokey eye,brow,brow shaping,brow shapes,lippy,compact,lip balm,powder,glitter,concealer,bronzer,lip liner,eyelash,moisturizer,cream,lip,lips,nail,eye,face,facial,cheek,nose,mascara,eyelashes,consultation,lesson,guidance,help,information,recommendation,suggestion,tip,teaching,makeup advice,unicorn
+Makeup Artist,specialist,makeup artist,mua,experts,skilled,trained,qualified,experienced,professional,trained,schooled,qualified,specialist
+Costume Makeup,theatre,tv,film,cosplay,broadway,drama,theater,stage,performance,halloween,special effcts,painting
+Event Makeup,celebration,ceremony,events,celebrations,ceremonies,wedding,quinceanera,prom,gala,dance,special event,night out,date night,date,evening
+Everyday Makeup,normal,workaday,common,daily,day-to-day,regular,routine,regimen,morning,school,work,natural,easy,quick,day
+International Beauty,foreign,global,universal,ethnic,world,korean,indian,asian,european,african
+Bridal Makeup,wedding,marriage,marital,spouse,spousal,bridesmaid,bachelorette,groom,groomsmen,maid of honor,matron of honor,reception,ceremony,bridal,beach wedding,summer wedding,luxury,destination,
+Celebrity Makeup Artist,superstar,personality,star,vip,celeb,famous,hotshot,hollywood,bollywood,red carpet,movie,movies,film,grammy,oscar,broadway,tv
+
+hair,inspiration,suggestion,thoughts,opinion,opinions,theory,hair ideas,natural hair,natural,regimen,remedy,analysis,hair treatment,beautician,styler,stylist,hairdresser,short hair,long hair,braids,braiding,curly,fishtail,double braids,haircut,hairstyle,updos,pigtail,ponytail,pony tail,beachy waves
+Event hair,celebration,ceremony,events,celebrations,ceremonies,wedding,quinceanera,prom,gala,dance,special event,night out,date night,date,evening,
+Colorist,hair color,color artist,hair color artist,hair coloring,color,colors,dyeing,dye,staining,tinting,highlighting,shading,ombre,balayage,highlight,highlights,highlighting,painting,pintura,partial,low lights,foiling,glaze,gloss,toner,permanent,temporary,hair painting,sombre,babylights,colormelt,ecaille,bronde,blended color
+Celebrity Hairstylist,superstar,personality,star,vip,celeb,famous,hotshot,hollywood,bollywood,red carpet,movie,movies,film,grammy,oscar,broadway,tv
+Hair Stylist,specialist,artist,expert,trained,qualified,experiened,professional,schooled,qualified,tech,hair-tech,technician,style,haircutter,hairdresser
+Bridal,wedding,marriage,marital,spouse,spousal,bridesmaid,bachelorette,groom,groomsmen,maid of honor,matron of honor,reception,ceremony,bridal,beach wedding,summer wedding,luxury,destination,
+Men's Hair,men's hair cutter,mens hair cutter,coiffeur,coiffeuse,mens hairdresser,mens hair stylist,men's hair stylist,men's hairdresser,barber
+
+fashion,street style,street fashion,streetstyle,sneakerhead,shoe collector,kicks,jordans,dunks,exclusive shoes,exclusive kicks,rare shoes,sneaker collector,footwear,style,look,appearance,styling,stylist,appearance,look,dress,looks,guise,shape,advisor,expert,specialist,authority,master,maven,mentor,pro,professional,fashion expert, fashion consultant,runway,fad,chic,vogue,trends,style tips,style guide,designer,design,fashion news,body types,attire,what to wear,interview advice,minimalist fashion,minimalism,budget,scarf,jacket,pants,dress,hat,blouse,shirt,leggings,couture,haute couture,block heel,minibag,accessories,bags,purses,pumps,wedges,heel,skirts,mule,slide,hats,jewelry,necklaces,earring,socks,underwear,sleepwear,jogger,choker,preppy,sophisticated,classic,fashionable,shawl,cardigan,exclusive,posh,sassy,cosplay
+Men's Fashion,male,mens,guy,manly,manlike,gentlemen,gentleman
+Women's Fashion,female,girl's,woman,wife,she,spouse,grandmother,girlfriend,miss,mrs,ms,wife,mother
+Children's Fashion,childrens,kid's,kids,adolescent,infant,child,baby,kid,minor,teenager,toddler,youngster,youth,preteen,
+Event Styling,celebration,ceremony,events,celebrations,ceremonies,quinceanera,prom,gala,dance,class dance,commercial styling
+Wedding Fashion,wedding,marriage,marital,spouse,spousal,bridesmaid,bachelorette,groom,groomsmen,maid of honor,matron of honor,reception,ceremony,bridal,beach wedding,summer wedding,luxury,destination,
+Celebrity Stylist,superstar,personality,star,vip,celeb,famous,hotshot,hollywood,bollywood,red carpet,movie,movies,film,grammy,oscar,broadway,tv
+Personal Stylist,intimate,secret,particular,special,exclusive,wardrobe consultant,apparel,attire,closet,clothing,outfits,ensembles,garments,threads,duds,image consultant,shopping,buyer,purchaser,shopping help,personal shopper,personal styling,advice,aid,benefit,guidance,support,assist,assistance,remedy,revive,relieve,cure,better,closet detox,audit,closet styling,closet audit,wardrobe detox,outfit advice,ensemble,accoutrements,clothing,costume,guise,suit,wardrobe,color analysis,wardrobe help
+
+skin care,skin help,skincare help,skin care help,skincare advice,skin care advice,skin advice,combo,mix,combination skin,delicate,painful,sore,tender,easily harmed,sensitive skin,chapped,dryness,deydrated,hard,peeling,hardened,dry skin,dermatology,cleanser,moisturizer,skin concerns,toner,treatment,facial,face,skin type,rosacea,redness on face,redness,face wash,face mask,exfoliate,pores,glowing skin,clear skin,microdermabrasion,laser hair removal,dermabrasion,best eye cream,anti-aging cream,wrinkle,chemical peel,electrolysis,electrolysis hair removal,hair removal,permanent hair removal,electrology,electrical hair removal,laser hair removal,electrologist
+Acne,blackheads,pimples,postules,rosacea,whiteheads,zits,pizza-face,pizza face,skin inflammation,acne scar
+Anti-aging,fading,crumbling,maturing,old,wrinkled,wrinkling,mature,faded,crumbled,aging skin,mature skin,matured,developed,grown,old,ripe,seasoned,fully grown,aged
+Esthetician,skincare specialist,skin care specialist,skincare advisor,skin care advisor,skincare consultant,skin care consultant,skin expert,skincare expert,skin care expert
+Aesthetician,skincare specialist,skin care specialist,skincare advisor,skin care advisor,skincare consultant,skin care consultant,skin expert,skincare expert,skin care expert,medical
+Skincare Specialist,esthetician,skincare,skin integrity,skin conditions,skin treatment,skin healing,skincare for men,skin care for men,skincare for women,skin care for women,female skin,male skin,skin advice,skin treatment,skin tips
+
+Men's Fashion,male,mens,guy,manly,manlike,gentlemen,gentleman,men's clothing,apparel,accoutrement,clothes,duds,ensemble,garments,outfit,outfits,sportswear,threads,wardrobe,facial,body shape,body style,boat shoe
+Suiting	tuxedo,formalwear,formal wear,dress clothes,shirt and tie,business attire,businesswear,business wear,business clothes,suits
+Men's Grooming,primping,dressing,shaving,haircare,hair care,beards,beard,fuzz,mustache,stubble,goatee,vandyke,muttonchops,vandyke,stubble,sideburns,bristle,men's skincare,trim
+Men's Hair,men's hair cutter,mens hair cutter,coiffeur,coiffeuse,mens hairdresser,mens hair stylist,men's hair stylist,men's hairdresser,barber
+
+Over Fifty,over 50,fifty plus,50+,fab over fifty,stylish over fifty,after 50,after fifty,men over fifty,male over fifty,guy over fifty,woman over fifty,prime,grey
+Anti-aging,fading,crumbling,maturing,old,wrinkled,wrinkling,mature,faded,crumbled,aging skin,mature skin
+Mature Fashion,matured,developed,grown,old,ripe,seasoned,fully grown,aged,older,older woman fashion,older man fashion,mature woman,mature man
+Mature Makeup,older woman makeup
+Mature Hair,older woman hair,older man hair,hair loss

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Solr managed schema - automatically generated - DO NOT EDIT -->
+<schema name="example-data-driven-schema" version="1.6">
+  <uniqueKey>id</uniqueKey>
+  <defaultSearchField>tag_texts</defaultSearchField>
+  <fieldType name="boolean" class="solr.BoolField" sortMissingLast="true"/>
+  <fieldType name="booleans" class="solr.BoolField" multiValued="true" sortMissingLast="true"/>
+  <fieldType name="date" class="solr.TrieDateField" precisionStep="0" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="dates" class="solr.TrieDateField" precisionStep="0" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="double" class="solr.TrieDoubleField" precisionStep="0" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="double_i" class="solr.TrieDoubleField" precisionStep="0" indexed="true" stored="true" positionIncrementGap="0"/>
+  <fieldType name="doubles" class="solr.TrieDoubleField" precisionStep="0" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="float" class="solr.TrieFloatField" precisionStep="0" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="floats" class="solr.TrieFloatField" precisionStep="0" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="int" class="solr.TrieIntField" precisionStep="0" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="ints" class="solr.TrieIntField" precisionStep="0" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="location_i" class="solr.LatLonType" subFieldSuffix="_coordinate" indexed="true" stored="true"/>
+  <fieldType name="long" class="solr.TrieLongField" precisionStep="0" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="longs" class="solr.TrieLongField" precisionStep="0" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="point" class="solr.PointType" dimension="2" subFieldSuffix="_d"/>
+  <fieldType name="string" class="solr.StrField" sortMissingLast="true" docValues="true"/>
+  <fieldType name="strings" class="solr.StrField" multiValued="true" sortMissingLast="true" docValues="true"/>
+  <fieldType name="tdate" class="solr.TrieDateField" precisionStep="6" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tdates" class="solr.TrieDateField" precisionStep="6" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tdouble" class="solr.TrieDoubleField" precisionStep="8" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tdoubles" class="solr.TrieDoubleField" precisionStep="8" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="text" class="solr.TextField" multiValued="true" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="1" generateNumberParts="1" catenateWords="0" generateWordParts="1" catenateAll="0" catenateNumbers="0"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="text_p" class="solr.TextField" multiValued="true" positionIncrementGap="100">
+    <analyzer type="index">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.SynonymFilterFactory" synonyms="synonyms.txt" ignoreCase="true" expand="true"/>
+      <filter class="solr.KeepWordFilterFactory"/>
+      <filter class="solr.WordDelimiterFilterFactory" preserveOriginal="1" generateNumberParts="1" catenateWords="0" generateWordParts="1" catenateAll="0" catenateNumbers="0"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+      <filter class="solr.NGramTokenizerFactory" maxGramSize="20" minGramSize="3"/>
+      <filter class="solr.RemoveDuplicatesTokenFilterFactory"/>
+    </analyzer>
+    <analyzer type="query">
+      <tokenizer class="solr.StandardTokenizerFactory"/>
+      <filter class="solr.LowerCaseFilterFactory"/>
+      <filter class="solr.PorterStemFilterFactory"/>
+    </analyzer>
+  </fieldType>
+  <fieldType name="tfloat" class="solr.TrieFloatField" precisionStep="8" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tfloats" class="solr.TrieFloatField" precisionStep="8" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tint" class="solr.TrieIntField" precisionStep="8" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tints" class="solr.TrieIntField" precisionStep="8" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tlong" class="solr.TrieLongField" precisionStep="8" positionIncrementGap="0" docValues="true"/>
+  <fieldType name="tlongs" class="solr.TrieLongField" precisionStep="8" multiValued="true" positionIncrementGap="0" docValues="true"/>
+  <field name="_root_" type="string" indexed="true" stored="false" docValues="false"/>
+  <field name="_version_" type="long" indexed="true" stored="true"/>
+  <field name="common_keyword_five" type="text_p" indexed="true" required="false" stored="true"/>
+  <field name="common_keyword_four" type="text_p" indexed="true" required="false" stored="true"/>
+  <field name="common_keyword_one" type="text" indexed="true" required="false" stored="true"/>
+  <field name="common_keyword_six" type="text" indexed="true" required="false" stored="true"/>
+  <field name="common_keyword_three" type="text_p" indexed="true" required="false" stored="true"/>
+  <field name="common_keyword_two" type="text_p" indexed="true" required="false" stored="true"/>
+  <field name="education" type="string" multiValued="false" indexed="false" required="false" stored="true"/>
+  <field name="email" type="string" multiValued="false" indexed="false" required="true" stored="true"/>
+  <field name="experience" type="string" multiValued="false" indexed="false" required="false" stored="true"/>
+  <field name="expert_id" type="string" multiValued="false" indexed="false" required="true" stored="true"/>
+  <field name="headline" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="id" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="name" type="string" multiValued="false" indexed="true" required="true" stored="true"/>
+  <field name="summary" type="string" multiValued="false" indexed="true" required="false" stored="true"/>
+  <field name="tag_ids" type="int" multiValued="true" indexed="true" required="false" stored="true"/>
+  <field name="tag_texts" type="string" multiValued="true" indexed="true" required="false" stored="true"/>
+  <field name="1_up_ids" type="int" multiValued="true" indexed="true" required="false" stored="true"/>
+  <field name="1_up_texts" type="string" multiValued="true" indexed="true" required="false" stored="true"/>
+  <field name="2_up_ids" type="int" multiValued="true" indexed="true" required="false" stored="true"/>
+  <field name="2_up_texts" type="string" multiValued="true" indexed="true" required="false" stored="true"/>
+
+  <field name="year_of_experience" type="string" multiValued="false" indexed="true" required="false" stored="true"/>
+
+  <field name="avg_rating" type="float" multiValued="false" indexed="true" required="false" stored="true"/>
+  <field name="num_rating" type="int" multiValued="false" indexed="true" required="false" stored="true"/>
+
+  <field name="is_featured" type="int" multiValued="false" indexed="true" required="false" stored="true"/>
+
+
+  <copyField source="education" dest="common_keyword_one"/>
+  <copyField source="experience" dest="common_keyword_one"/>
+  <copyField source="headline" dest="common_keyword_one"/>
+  <copyField source="summary" dest="common_keyword_one"/>
+  <copyField source="1_up_texts" dest="common_keyword_two"/>
+  <copyField source="2_up_texts" dest="common_keyword_three"/>
+  <copyField source="tag_texts" dest="common_keyword_four"/>
+  <copyField source="name" dest="common_keyword_five"/>
+</schema>

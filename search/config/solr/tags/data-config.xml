@@ -1,0 +1,21 @@
+<dataConfig>
+  <dataSource type="JdbcDataSource"
+    driver="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://${MYSQL_HOSTNAME}:${MYSQL_PORT}/${MYSQL_DB_NAME}"
+    user="${MYSQL_USERNAME}"
+    password="${MYSQL_PASSWORD}" />
+  <document>
+    <entity name="tags"
+      transformer="HTMLStripTransformer"
+      pk="id"
+      query="SELECT T.id, T.name, T.parent_id as parent, T.tag_type FROM domains_tag T"
+      deltaImportQuery="SELECT T.id, T.name, T.parent_id as parent, T.tag_type FROM domains_tag T WHERE T.id='${dih.delta.id}'"
+      deltaQuery= "SELECT T.id, T.name, T.parent_id as parent, T.tag_type FROM domains_tag T WHERE T.id='${dih.delta.id}'"
+      >
+        <field column="id"                name="id" />
+        <field column="name"              name="name" />
+        <field column="parent"              name="parent" />
+        <field column="tag_type"              name="tag_type" />
+    </entity>
+  </document>
+</dataConfig>

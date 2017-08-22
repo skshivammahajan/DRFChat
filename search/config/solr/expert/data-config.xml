@@ -1,0 +1,105 @@
+<dataConfig>
+  <dataSource type="JdbcDataSource"
+    driver="com.mysql.jdbc.Driver"
+    url="jdbc:mysql://${MYSQL_HOSTNAME}:${MYSQL_PORT}/${MYSQL_DB_NAME}"
+    user="${MYSQL_USERNAME}"
+    password="${MYSQL_PASSWORD}"
+    convertType="true" />
+  <document>
+    <entity name="experts"
+      transformer="HTMLStripTransformer"
+      pk="id"
+      query="SELECT EP.id,EP.expert_id, U.email, U.name, EP.headline, EP.summary, EP.educational_background,
+      EP.my_experience, EP.year_of_experience, EP.is_featured, E.avg_rating, E.num_rating FROM users_expertprofile AS EP, users_expert AS E, auth_user AS U WHERE
+      (EP.review_status='3' AND EP.expert_id = E.userbase_id AND E.userbase_id = U.id) AND U.is_active = True AND EP.id IN
+      (SELECT DISTINCT `users_expertprofile`.`id` FROM `users_expertprofile` INNER JOIN `auth_user` WHERE (`auth_user`.`is_phone_number_verified` = True AND NOT (`users_expertprofile`.`headline` ='' )  AND NOT (`auth_user`.`profile_photo` =''  AND `auth_user`.`profile_photo` IS NOT NULL AND  `auth_user`.`name` != '' )))
+      "
+      deltaImportQuery="SELECT EP.id,
+       EP.expert_id, U.email, U.name, EP.headline,
+        EP.summary, EP.educational_background,
+        EP.my_experience, EP.year_of_experience, EP.is_featured, E.avg_rating, E.num_rating
+        FROM
+        users_expertprofile AS EP, users_expert AS E, auth_user AS U
+        WHERE
+        (EP.review_status='3' AND EP.expert_id = E.id AND E.userbase_id = U.id) AND U.is_active = True AND EP.id='${dih.delta.id}'"
+      deltaQuery="SELECT EP.id, EP.expert_id, U.email, U.name, EP.headline, EP.summary, EP.educational_background,
+        EP.my_experience, EP.year_of_experience, EP.is_featured, E.avg_rating, E.num_rating  FROM users_expertprofile AS EP, users_expert AS E, auth_user AS U WHERE
+        (EP.review_status='3' AND EP.expert_id = E.id AND E.userbase_id = U.id) AND
+        (U.is_active = True AND (EP.modified_timestamp > '${dih.last_index_time}'
+        OR
+        U.modified_timestamp > '${dih.last_index_time}')
+        OR
+        ('${dih.request.id}' != '' AND EP.id = '${dih.request.id}'))
+        AND
+        EP.id IN
+          (SELECT DISTINCT `users_expertprofile`.`id` FROM `users_expertprofile` INNER JOIN `auth_user` WHERE (`auth_user`.`is_phone_number_verified` = True AND NOT (`users_expertprofile`.`headline` ='' )  AND NOT (`auth_user`.`profile_photo` =''  AND `auth_user`.`profile_photo` IS NOT NULL AND  `auth_user`.`name` != '' )))
+          "
+      >
+        <field column="id"                                name="id" />
+        <field column="email"                             name="email" />
+        <field column="name"                              name="name" />
+        <field column="expert_id"                         name="expert_id" />
+        <field column="headline"                          name="headline" />
+        <field column="summary"                           name="summary" />
+        <field column="educational_background"            name="education" />
+        <field column="my_experience"                     name="experience" />
+        <field column="year_of_experience"                name="year_of_experience" />
+        <field column="is_featured"                       name="is_featured" />
+        <field column="avg_rating"                        name="avg_rating" />
+        <field column="num_rating"                        name="num_rating" />
+
+
+      <entity name="tag"
+          query="SELECT
+              T1.id AS tag_ids, T1.name AS tag_texts,
+              T2.id AS 1_up_ids, T2.name AS 1_up_texts,
+              T3.id AS 2_up_ids, T3.name AS 2_up_texts
+            FROM
+              users_expertprofile_tags AS EPT
+              LEFT JOIN domains_tag AS T1 ON ( T1.id = EPT.tag_id )
+              LEFT JOIN domains_tag AS T2 ON ( T2.id = T1.parent_id )
+              LEFT JOIN domains_tag AS T3 ON ( T3.id = T2.parent_id )
+              WHERE EPT.expertprofile_id ='${experts.id}'"
+        >
+          <field column="tag_ids"         name="tag_ids"/>
+          <field column="tag_texts"       name="tag_texts"/>
+          <field column="1_up_ids"        name="1_up_ids"/>
+          <field column="1_up_texts"      name="1_up_texts"/>
+          <field column="2_up_ids"        name="2_up_ids"/>
+          <field column="2_up_texts"      name="2_up_texts"/>
+        </entity>
+
+        <!-- <entity name="tag"
+          query="SELECT
+              UPT.tag_id, T.text, T.parent_id
+            FROM
+              expertprofile_tags AS UPT LEFT JOIN
+              tag AS T ON (UPT.tag_id = T.id)
+            WHERE UPT.expertprofile_id = '${experts.id}'"
+        >
+          <field column="tag_id"          name="tag_ids"/>
+          <field column="text"            name="tag_texts"/>
+          <entity name="1_up_tag"
+            query="SELECT
+              T.id, T.text
+            FROM
+              tag AS T
+            WHERE T.id = ${tag.tag_id}"
+            >
+            <field column="id"            name="1_up_ids"/>
+            <field column="text"          name="1_up_texts"/>
+            <entity name="2_up_tag"
+              query="SELECT
+                T.id, T.text
+              FROM
+                tag AS T
+              WHERE T.id = ${1_up_tag.id}"
+              >
+              <field column="id"          name="2_up_ids"/>
+              <field column="text"        name="2_up_texts"/>
+            </entity>
+          </entity>
+        </entity> -->
+    </entity>
+  </document>
+</dataConfig>
