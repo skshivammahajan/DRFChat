@@ -1,0 +1,25 @@
+{% load i18n %}{% autoescape off %}
+{% blocktrans %}
+Welcome to ExperChat!
+
+We’re excited that you’re interested in growing your business through live video consultations on ExperChat.
+But first, we need to verify your email address before you can activate your account.
+
+{% endblocktrans %}
+
+{% trans "To verify your email address, click the link below. Once verified, you can continue with setting up your Expert profile." %}
+{% block reset_link %}
+{{ frontend_url }}{{ email_verification_url }}/?token={{ verification_token }}
+{% endblock %}
+
+{% trans "Please note that the verification link will expire in 24 hours." %}
+
+{% blocktrans %}
+Thanks for joining ExperChat!
+{% endblocktrans %}
+
+{% endautoescape %}
+
+
+
+

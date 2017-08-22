@@ -1,0 +1,51 @@
+[
+{
+    "model": "experchat.weekday",
+    "pk": 1,
+    "fields": {
+        "day": 1
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 2,
+    "fields": {
+        "day": 2
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 3,
+    "fields": {
+        "day": 3
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 4,
+    "fields": {
+        "day": 4
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 5,
+    "fields": {
+        "day":5
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 6,
+    "fields": {
+        "day": 6
+    }
+},
+{
+    "model": "experchat.weekday",
+    "pk": 7,
+    "fields": {
+        "day": 7
+    }
+}
+]

@@ -1,0 +1,4 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}Experchat : Profile Status {% endblocktrans %}
+{% endautoescape %}

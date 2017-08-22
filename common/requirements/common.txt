@@ -1,0 +1,1 @@
+git+ssh://git@bitbucket.org/avihoffer/ec_python_common.git

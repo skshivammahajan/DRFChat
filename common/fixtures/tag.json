@@ -1,0 +1,7769 @@
+[
+    {
+    "model": "experchat.domain",
+    "pk": 1,
+    "fields": {
+        "name": "Beauty and Fashion"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 1,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Makeup",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 2,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Hair",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 3,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Fashion",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 4,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Skin Care",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 5,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Just For Men",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 6,
+    "fields": {
+        "domain": 1,
+        "parent": null,
+        "name": "Over Fifty",
+        "tag_type": "parent"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 7,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Makeup Artist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 8,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Costume Makeup",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 9,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Event Makeup",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 10,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Everyday Makeup",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 11,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "International Beauty",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 12,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Bridal Makeup",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 13,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "Celebrity Makeup Artist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 14,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Event hair ",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 15,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Colorist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 16,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Celebrity Hairstylist ",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 17,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Hair Stylist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 18,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Bridal",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 19,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "Men's Hair ",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 20,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Men's Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 21,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Women's Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 22,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Children's Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 23,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Event Styling",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 24,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Wedding Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 25,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Celebrity Stylist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 26,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "Personal Stylist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 27,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "Acne",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 28,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "Anti-aging",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 29,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "Esthetician",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 30,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "Aesthetician",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 31,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "Skincare Specialist",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 32,
+    "fields": {
+        "domain": 1,
+        "parent": 5,
+        "name": "Men's Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 33,
+    "fields": {
+        "domain": 1,
+        "parent": 5,
+        "name": "Suiting",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 34,
+    "fields": {
+        "domain": 1,
+        "parent": 5,
+        "name": "Men's Grooming",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 35,
+    "fields": {
+        "domain": 1,
+        "parent": 5,
+        "name": "Men's Hair",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 36,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "Anti-aging",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 37,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "Mature Fashion",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 38,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "Mature Makeup",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 39,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "Mature Hair",
+        "tag_type": "child"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 40,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "natural makeup",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 41,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "natural look",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 42,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "organic",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 43,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "no chemicals",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 44,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "wholesome",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 45,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "natural makeup",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 46,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "contouring",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 47,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "contour",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 48,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "highlights",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 49,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "highlighting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 50,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "highlighter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 51,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eyeliner",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 52,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eyeshadow",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 53,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "foundation",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 54,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "blush",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 55,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lipstick",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 56,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lipgloss",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 57,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lip color",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 58,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "mascara",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 59,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eye makeup",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 60,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "cat eye",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 61,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "smokey eye",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 62,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "brow",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 63,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "brow shaping",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 64,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "brow shapes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 65,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lippy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 66,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "compact",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 67,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lip balm",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 68,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "powder",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 69,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "glitter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 70,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "concealer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 71,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "bronzer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 72,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lip liner",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 73,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eyelash",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 74,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "moisturizer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 75,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "cream",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 76,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lip",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 77,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lips",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 78,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "nail",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 79,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eye",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 80,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "face",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 81,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "facial",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 82,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "cheek",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 83,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "nose",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 84,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "mascara",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 85,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "eyelashes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 86,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "consultation",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 87,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "lesson",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 88,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "guidance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 89,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 90,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "information",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 91,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "recommendation",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 92,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "suggestion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 93,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "tip",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 94,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "teaching",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 95,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "makeup advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 96,
+    "fields": {
+        "domain": 1,
+        "parent": 1,
+        "name": "unicorn",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 97,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 98,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "makeup artist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 99,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "mua",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 100,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "experts",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 101,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "skilled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 102,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "trained",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 103,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "qualified",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 104,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "experienced",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 105,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "professional",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 106,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "trained",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 107,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "schooled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 108,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "qualified",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 109,
+    "fields": {
+        "domain": 1,
+        "parent": 7,
+        "name": "specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 110,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "theatre",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 111,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "tv",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 112,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "film",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 113,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "cosplay",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 114,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "broadway",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 115,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "drama",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 116,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "theater",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 117,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "stage",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 118,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "performance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 119,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "halloween",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 120,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "special effcts",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 121,
+    "fields": {
+        "domain": 1,
+        "parent": 8,
+        "name": "painting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 122,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "celebration",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 123,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 124,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "events",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 125,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "celebrations",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 126,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "ceremonies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 127,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 128,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "quinceanera",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 129,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "prom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 130,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "gala",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 131,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "dance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 132,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "special event",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 133,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "night out",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 134,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "date night",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 135,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "date",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 136,
+    "fields": {
+        "domain": 1,
+        "parent": 9,
+        "name": "evening",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 137,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "normal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 138,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "workaday",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 139,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "common",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 140,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "daily",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 141,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "day-to-day",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 142,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "regular",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 143,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "routine",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 144,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "regimen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 145,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "morning",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 146,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "school",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 147,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "work",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 148,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "natural",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 149,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "easy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 150,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "quick",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 151,
+    "fields": {
+        "domain": 1,
+        "parent": 10,
+        "name": "day",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 152,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "foreign",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 153,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "global",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 154,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "universal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 155,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "ethnic",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 156,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "world",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 157,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "korean",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 158,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "indian",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 159,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "asian",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 160,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "european",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 161,
+    "fields": {
+        "domain": 1,
+        "parent": 11,
+        "name": "african",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 162,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 163,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "marriage",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 164,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "marital",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 165,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "spouse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 166,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "spousal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 167,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "bridesmaid",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 168,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "bachelorette",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 169,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "groom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 170,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "groomsmen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 171,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "maid of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 172,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "matron of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 173,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "reception",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 174,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 175,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "bridal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 176,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "beach wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 177,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "summer wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 178,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "luxury",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 179,
+    "fields": {
+        "domain": 1,
+        "parent": 12,
+        "name": "destination",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 180,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "superstar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 181,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "personality",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 182,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "star",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 183,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "vip",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 184,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "celeb",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 185,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "famous",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 186,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "hotshot",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 187,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "hollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 188,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "bollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 189,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "red carpet",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 190,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "movie",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 191,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "movies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 192,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "film",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 193,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "grammy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 194,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "oscar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 195,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "broadway",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 196,
+    "fields": {
+        "domain": 1,
+        "parent": 13,
+        "name": "tv",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 197,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "inspiration",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 198,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "suggestion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 199,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "thoughts",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 200,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "opinion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 201,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "opinions",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 202,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "theory",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 203,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "hair ideas",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 204,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "natural hair",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 205,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "natural",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 206,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "regimen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 207,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "remedy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 208,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "analysis",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 209,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "hair treatment",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 210,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "beautician",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 211,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "styler",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 212,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 213,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 214,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "short hair",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 215,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "long hair",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 216,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "braids",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 217,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "braiding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 218,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "curly",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 219,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "fishtail",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 220,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "double braids",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 221,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "haircut",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 222,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "hairstyle",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 223,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "updos",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 224,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "pigtail",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 225,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "ponytail",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 226,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "pony tail",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 227,
+    "fields": {
+        "domain": 1,
+        "parent": 2,
+        "name": "beachy waves",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 228,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "celebration",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 229,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 230,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "events",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 231,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "celebrations",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 232,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "ceremonies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 233,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 234,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "quinceanera",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 235,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "prom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 236,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "gala",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 237,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "dance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 238,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "special event",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 239,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "night out",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 240,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "date night",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 241,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "date",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 242,
+    "fields": {
+        "domain": 1,
+        "parent": 14,
+        "name": "evening",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 243,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "hair color",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 244,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "color artist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 245,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "hair color artist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 246,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "hair coloring",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 247,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "color",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 248,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "colors",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 249,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "dyeing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 250,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "dye",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 251,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "staining",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 252,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "tinting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 253,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "highlighting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 254,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "shading",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 255,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "ombre",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 256,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "balayage",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 257,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "highlight",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 258,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "highlights",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 259,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "highlighting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 260,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "painting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 261,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "pintura",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 262,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "partial",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 263,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "low lights",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 264,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "foiling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 265,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "glaze",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 266,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "gloss",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 267,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "toner",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 268,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "permanent",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 269,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "temporary",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 270,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "hair painting",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 271,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "sombre",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 272,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "babylights",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 273,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "colormelt",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 274,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "ecaille",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 275,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "bronde",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 276,
+    "fields": {
+        "domain": 1,
+        "parent": 15,
+        "name": "blended color",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 277,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "superstar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 278,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "personality",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 279,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "star",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 280,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "vip",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 281,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "celeb",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 282,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "famous",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 283,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "hotshot",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 284,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "hollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 285,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "bollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 286,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "red carpet",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 287,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "movie",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 288,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "movies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 289,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "film",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 290,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "grammy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 291,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "oscar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 292,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "broadway",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 293,
+    "fields": {
+        "domain": 1,
+        "parent": 16,
+        "name": "tv",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 294,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 295,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "artist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 296,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 297,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "trained",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 298,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "qualified",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 299,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "experiened",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 300,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "professional",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 301,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "schooled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 302,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "qualified",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 303,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "tech",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 304,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "hair-tech",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 305,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "technician",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 306,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "style",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 307,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "haircutter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 308,
+    "fields": {
+        "domain": 1,
+        "parent": 17,
+        "name": "hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 309,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 310,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "marriage",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 311,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "marital",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 312,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "spouse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 313,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "spousal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 314,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "bridesmaid",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 315,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "bachelorette",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 316,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "groom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 317,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "groomsmen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 318,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "maid of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 319,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "matron of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 320,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "reception",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 321,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 322,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "bridal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 323,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "beach wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 324,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "summer wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 325,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "luxury",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 326,
+    "fields": {
+        "domain": 1,
+        "parent": 18,
+        "name": "destination",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 327,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "men's hair cutter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 328,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "mens hair cutter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 329,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "coiffeur",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 330,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "coiffeuse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 331,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "mens hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 332,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "mens hair stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 333,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "men's hair stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 334,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "men's hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 335,
+    "fields": {
+        "domain": 1,
+        "parent": 19,
+        "name": "barber",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 336,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "street style",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 337,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "street fashion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 338,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "streetstyle",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 339,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "sneakerhead",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 340,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "shoe collector",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 341,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "kicks",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 342,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "jordans",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 343,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "dunks",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 344,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "exclusive shoes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 345,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "exclusive kicks",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 346,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "rare shoes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 347,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "sneaker collector",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 348,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "footwear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 349,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "style",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 350,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "look",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 351,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "appearance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 352,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "styling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 353,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 354,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "appearance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 355,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "look",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 356,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "dress",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 357,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "looks",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 358,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "guise",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 359,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "shape",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 360,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "advisor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 361,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 362,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 363,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "authority",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 364,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "master",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 365,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "maven",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 366,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "mentor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 367,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "pro",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 368,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "professional",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 369,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "fashion expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 370,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "fashion consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 371,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "runway",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 372,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "fad",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 373,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "chic",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 374,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "vogue",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 375,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "trends",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 376,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "style tips",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 377,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "style guide",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 378,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "designer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 379,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "design",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 380,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "fashion news",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 381,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "body types",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 382,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "attire",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 383,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "what to wear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 384,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "interview advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 385,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "minimalist fashion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 386,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "minimalism",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 387,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "budget",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 388,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "scarf",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 389,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "jacket",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 390,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "pants",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 391,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "dress",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 392,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "hat",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 393,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "blouse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 394,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "shirt",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 395,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "leggings",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 396,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "couture",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 397,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "haute couture",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 398,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "block heel",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 399,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "minibag",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 400,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "accessories",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 401,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "bags",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 402,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "purses",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 403,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "pumps",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 404,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "wedges",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 405,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "heel",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 406,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "skirts",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 407,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "mule",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 408,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "slide",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 409,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "hats",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 410,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "jewelry",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 411,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "necklaces",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 412,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "earring",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 413,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "socks",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 414,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "underwear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 415,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "sleepwear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 416,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "jogger",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 417,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "choker",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 418,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "preppy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 419,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "sophisticated",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 420,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "classic",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 421,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "fashionable",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 422,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "shawl",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 423,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "cardigan",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 424,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "exclusive",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 425,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "posh",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 426,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "sassy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 427,
+    "fields": {
+        "domain": 1,
+        "parent": 3,
+        "name": "cosplay",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 428,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "male",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 429,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "mens",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 430,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "guy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 431,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "manly",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 432,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "manlike",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 433,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "gentlemen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 434,
+    "fields": {
+        "domain": 1,
+        "parent": 20,
+        "name": "gentleman",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 435,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "female",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 436,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "girl's",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 437,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "woman",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 438,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "wife",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 439,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "she",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 440,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "spouse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 441,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "grandmother",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 442,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "girlfriend",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 443,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "miss",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 444,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "mrs",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 445,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "ms",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 446,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "wife",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 447,
+    "fields": {
+        "domain": 1,
+        "parent": 21,
+        "name": "mother",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 448,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "childrens",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 449,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "kid's",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 450,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "kids",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 451,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "adolescent",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 452,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "infant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 453,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "child",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 454,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "baby",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 455,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "kid",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 456,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "minor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 457,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "teenager",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 458,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "toddler",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 459,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "youngster",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 460,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "youth",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 461,
+    "fields": {
+        "domain": 1,
+        "parent": 22,
+        "name": "preteen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 462,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "celebration",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 463,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 464,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "events",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 465,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "celebrations",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 466,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "ceremonies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 467,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "quinceanera",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 468,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "prom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 469,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "gala",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 470,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "dance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 471,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "class dance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 472,
+    "fields": {
+        "domain": 1,
+        "parent": 23,
+        "name": "commercial styling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 473,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 474,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "marriage",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 475,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "marital",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 476,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "spouse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 477,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "spousal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 478,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "bridesmaid",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 479,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "bachelorette",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 480,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "groom",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 481,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "groomsmen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 482,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "maid of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 483,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "matron of honor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 484,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "reception",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 485,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "ceremony",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 486,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "bridal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 487,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "beach wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 488,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "summer wedding",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 489,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "luxury",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 490,
+    "fields": {
+        "domain": 1,
+        "parent": 24,
+        "name": "destination",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 491,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "superstar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 492,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "personality",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 493,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "star",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 494,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "vip",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 495,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "celeb",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 496,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "famous",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 497,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "hotshot",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 498,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "hollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 499,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "bollywood",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 500,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "red carpet",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 501,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "movie",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 502,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "movies",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 503,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "film",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 504,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "grammy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 505,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "oscar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 506,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "broadway",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 507,
+    "fields": {
+        "domain": 1,
+        "parent": 25,
+        "name": "tv",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 508,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "intimate",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 509,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "secret",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 510,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "particular",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 511,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "special",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 512,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "exclusive",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 513,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "wardrobe consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 514,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "apparel",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 515,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "attire",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 516,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "closet",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 517,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "clothing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 518,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "outfits",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 519,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "ensembles",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 520,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "garments",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 521,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "threads",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 522,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "duds",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 523,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "image consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 524,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "shopping",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 525,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "buyer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 526,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "purchaser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 527,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "shopping help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 528,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "personal shopper",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 529,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "personal styling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 530,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 531,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "aid",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 532,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "benefit",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 533,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "guidance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 534,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "support",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 535,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "assist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 536,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "assistance",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 537,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "remedy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 538,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "revive",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 539,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "relieve",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 540,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "cure",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 541,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "better",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 542,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "closet detox",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 543,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "audit",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 544,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "closet styling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 545,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "closet audit",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 546,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "wardrobe detox",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 547,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "outfit advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 548,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "ensemble",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 549,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "accoutrements",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 550,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "clothing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 551,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "costume",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 552,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "guise",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 553,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "suit",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 554,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "wardrobe",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 555,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "color analysis",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 556,
+    "fields": {
+        "domain": 1,
+        "parent": 26,
+        "name": "wardrobe help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 557,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 558,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skincare help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 559,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin care help",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 560,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skincare advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 561,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin care advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 562,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 563,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "combo",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 564,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "mix",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 565,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "combination skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 566,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "delicate",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 567,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "painful",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 568,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "sore",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 569,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "tender",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 570,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "easily harmed",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 571,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "sensitive skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 572,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "chapped",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 573,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "dryness",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 574,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "deydrated",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 575,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "hard",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 576,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "peeling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 577,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "hardened",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 578,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "dry skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 579,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "dermatology",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 580,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "cleanser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 581,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "moisturizer",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 582,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin concerns",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 583,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "toner",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 584,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "treatment",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 585,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "facial",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 586,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "face",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 587,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "skin type",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 588,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "rosacea",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 589,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "redness on face",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 590,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "redness",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 591,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "face wash",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 592,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "face mask",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 593,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "exfoliate",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 594,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "pores",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 595,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "glowing skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 596,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "clear skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 597,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "microdermabrasion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 598,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "laser hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 599,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "dermabrasion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 600,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "best eye cream",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 601,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "anti-aging cream",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 602,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "wrinkle",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 603,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "chemical peel",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 604,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "electrolysis",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 605,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "electrolysis hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 606,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 607,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "permanent hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 608,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "electrology",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 609,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "electrical hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 610,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "laser hair removal",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 611,
+    "fields": {
+        "domain": 1,
+        "parent": 4,
+        "name": "electrologist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 612,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "blackheads",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 613,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "pimples",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 614,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "postules",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 615,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "rosacea",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 616,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "whiteheads",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 617,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "zits",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 618,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "pizza-face",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 619,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "pizza face",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 620,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "skin inflammation",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 621,
+    "fields": {
+        "domain": 1,
+        "parent": 27,
+        "name": "acne scar",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 622,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "fading",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 623,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "crumbling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 624,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "maturing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 625,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "old",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 626,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "wrinkled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 627,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "wrinkling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 628,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "mature",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 629,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "faded",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 630,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "crumbled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 631,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "aging skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 632,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "mature skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 633,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "matured",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 634,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "developed",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 635,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "grown",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 636,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "old",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 637,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "ripe",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 638,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "seasoned",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 639,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "fully grown",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 640,
+    "fields": {
+        "domain": 1,
+        "parent": 28,
+        "name": "aged",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 641,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skincare specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 642,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skin care specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 643,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skincare advisor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 644,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skin care advisor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 645,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skincare consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 646,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skin care consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 647,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skin expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 648,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skincare expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 649,
+    "fields": {
+        "domain": 1,
+        "parent": 29,
+        "name": "skin care expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 650,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skincare specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 651,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skin care specialist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 652,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skincare advisor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 653,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skin care advisor",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 654,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skincare consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 655,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skin care consultant",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 656,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skin expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 657,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skincare expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 658,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "skin care expert",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 659,
+    "fields": {
+        "domain": 1,
+        "parent": 30,
+        "name": "medical",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 660,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "esthetician",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 661,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skincare",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 662,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin integrity",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 663,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin conditions",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 664,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin treatment",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 665,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin healing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 666,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skincare for men",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 667,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin care for men",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 668,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skincare for women",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 669,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin care for women",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 670,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "female skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 671,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "male skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 672,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin advice",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 673,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin treatment",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 674,
+    "fields": {
+        "domain": 1,
+        "parent": 31,
+        "name": "skin tips",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 675,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "male",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 676,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "mens",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 677,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "guy",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 678,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "manly",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 679,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "manlike",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 680,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "gentlemen",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 681,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "gentleman",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 682,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "men's clothing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 683,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "apparel",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 684,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "accoutrement",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 685,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "clothes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 686,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "duds",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 687,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "ensemble",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 688,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "garments",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 689,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "outfit",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 690,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "outfits",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 691,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "sportswear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 692,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "threads",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 693,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "wardrobe",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 694,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "facial",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 695,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "body shape",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 696,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "body style",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 697,
+    "fields": {
+        "domain": 1,
+        "parent": 32,
+        "name": "boat shoe",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 698,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "tuxedo",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 699,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "formalwear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 700,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "formal wear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 701,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "dress clothes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 702,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "shirt and tie",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 703,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "business attire",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 704,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "businesswear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 705,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "business wear",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 706,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "business clothes",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 707,
+    "fields": {
+        "domain": 1,
+        "parent": 33,
+        "name": "suits",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 708,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "primping",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 709,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "dressing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 710,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "shaving",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 711,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "haircare",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 712,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "hair care",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 713,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "beards",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 714,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "beard",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 715,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "fuzz",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 716,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "mustache",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 717,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "stubble",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 718,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "goatee",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 719,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "vandyke",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 720,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "muttonchops",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 721,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "vandyke",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 722,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "stubble",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 723,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "sideburns",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 724,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "bristle",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 725,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "men's skincare",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 726,
+    "fields": {
+        "domain": 1,
+        "parent": 34,
+        "name": "trim",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 727,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "men's hair cutter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 728,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "mens hair cutter",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 729,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "coiffeur",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 730,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "coiffeuse",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 731,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "mens hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 732,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "mens hair stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 733,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "men's hair stylist",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 734,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "men's hairdresser",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 735,
+    "fields": {
+        "domain": 1,
+        "parent": 35,
+        "name": "barber",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 736,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "over 50",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 737,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "fifty plus",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 738,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "50",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 739,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "fab over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 740,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "stylish over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 741,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "after 50",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 742,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "after fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 743,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "men over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 744,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "male over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 745,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "guy over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 746,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "woman over fifty",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 747,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "prime",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 748,
+    "fields": {
+        "domain": 1,
+        "parent": 6,
+        "name": "grey",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 749,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "fading",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 750,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "crumbling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 751,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "maturing",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 752,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "old",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 753,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "wrinkled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 754,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "wrinkling",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 755,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "mature",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 756,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "faded",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 757,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "crumbled",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 758,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "aging skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 759,
+    "fields": {
+        "domain": 1,
+        "parent": 36,
+        "name": "mature skin",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 760,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "matured",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 761,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "developed",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 762,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "grown",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 763,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "old",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 764,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "ripe",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 765,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "seasoned",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 766,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "fully grown",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 767,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "aged",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 768,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "older",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 769,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "older woman fashion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 770,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "older man fashion",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 771,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "mature woman",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 772,
+    "fields": {
+        "domain": 1,
+        "parent": 37,
+        "name": "mature man",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 773,
+    "fields": {
+        "domain": 1,
+        "parent": 38,
+        "name": "older woman makeup",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 774,
+    "fields": {
+        "domain": 1,
+        "parent": 39,
+        "name": "older woman hair",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 775,
+    "fields": {
+        "domain": 1,
+        "parent": 39,
+        "name": "older man hair",
+        "tag_type": "synonym"
+    }
+},
+{
+    "model": "experchat.tag",
+    "pk": 776,
+    "fields": {
+        "domain": 1,
+        "parent": 39,
+        "name": "hair loss",
+        "tag_type": "synonym"
+    }
+}
+]
