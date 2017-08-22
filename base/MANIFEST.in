@@ -1,0 +1,9 @@
+# Include the license file
+#include LICENSE.txt
+
+# Include the data files
+#recursive-include data *
+
+include README.md
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
