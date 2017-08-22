@@ -1,0 +1,1 @@
+Congrats , Experchat Appointment Confirmed for  {{ title }} {{ scheduled_datetime }}

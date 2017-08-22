@@ -1,0 +1,15 @@
+{% load i18n %}
+Dear Expert,
+
+Congratulations , New Experchat session has been booked :
+
+Session Details:                                                                User Details :
+Name : {{ title }}                                                               {{ user.display_name }}
+Date & Duration :  {{ scheduled_datetime }} {{ scheduled_duration }}
+Price : {{ estimated_revenue }}
+
+Link: http://www.google.com
+
+Team Experchat
+
+For Additional query , please contact support@experchat.com

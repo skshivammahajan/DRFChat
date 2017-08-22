@@ -1,0 +1,13 @@
+{% load i18n %}
+Dear Expert ,
+
+{{ user.display_name }} added Ratings/Review on Session held on {{ scheduled_datetime }}.
+Following are details:
+
+{{ session_review_overall_rating }}
+{{ session_review_comment }}
+
+Click to view More : http://www.google.com
+
+Team Experchat
+For Additional query , please contact support@experchat.com

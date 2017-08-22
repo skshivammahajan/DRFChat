@@ -1,0 +1,42 @@
+[
+{
+   "model": "experchat.sessionpricing",
+   "pk": 1,
+   "fields": {
+       "created_timestamp": "2017-04-03T10:31:08.124Z",
+       "modified_timestamp": "2017-04-03T10:31:08.125Z",
+       "session_length": 10,
+       "price": 15
+   }
+},
+{
+   "model": "experchat.sessionpricing",
+   "pk": 2,
+   "fields": {
+       "created_timestamp": "2017-04-03T10:31:37.575Z",
+       "modified_timestamp": "2017-04-03T10:31:37.576Z",
+       "session_length": 20,
+       "price": 30
+   }
+},
+{
+   "model": "experchat.sessionpricing",
+   "pk": 3,
+   "fields": {
+       "created_timestamp": "2017-04-03T10:31:46.158Z",
+       "modified_timestamp": "2017-04-03T10:31:46.158Z",
+       "session_length": 30,
+       "price": 45
+   }
+},
+{
+   "model": "experchat.sessionpricing",
+   "pk": 4,
+   "fields": {
+       "created_timestamp": "2017-04-03T10:31:55.572Z",
+       "modified_timestamp": "2017-04-03T10:31:55.573Z",
+       "session_length": 60,
+       "price": 90
+   }
+}
+]

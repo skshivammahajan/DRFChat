@@ -1,0 +1,1 @@
+Session Confirmation Alert : {{ scheduled_duration }} {{ title }} Session Booked for {{ scheduled_datetime }}.

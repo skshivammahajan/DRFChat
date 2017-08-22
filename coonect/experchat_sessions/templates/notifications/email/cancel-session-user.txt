@@ -1,0 +1,15 @@
+{% load i18n %}
+Dear User,
+
+Sorry , Experchat appointment has been cancelled by Expert , following are details of cancelled session.
+
+Session Details:                                                                Expert Details :
+Name : {{ title }}                                                               {{ expert.display_name }}
+Date & Duration :  {{ scheduled_datetime }} {{ scheduled_duration }}
+Price : {{ estimated_revenue }}
+
+Link: http://www.google.com
+
+Team Experchat
+
+For Additional query , please contact support@experchat.com

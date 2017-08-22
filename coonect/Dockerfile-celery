@@ -1,0 +1,50 @@
+# Set the base image to use to Ubuntu
+FROM ubuntu:16.04
+ARG env_decryption_passwd
+ARG common_repo_user
+ARG common_repo_password
+ARG env_setting
+
+# set the env variable from the build args
+ENV ENV_DECRYPTION_PASSWD $env_decryption_passwd
+ENV COMMON_REPO_USER $common_repo_user
+ENV COMMON_REPO_PASSWORD $common_repo_password
+ENV ENV_SETTING $env_setting
+
+# add user
+RUN adduser --disabled-password --disabled-login --gecos "Experchat" experchat
+
+# meke the code directory
+RUN mkdir /home/experchat/connect
+
+ADD . /home/experchat/connect/
+
+# Update the default application repository sources list
+RUN apt-get update && apt-get -y upgrade
+
+# Install the required packages
+RUN apt install -y build-essential git libffi-dev python-docutils pkg-config python3-dev redis-server python3-pip
+
+RUN openssl des3 -d -in /home/experchat/connect/config/settings/$ENV_SETTING -out /home/experchat/connect/config/settings/local.py -pass pass:$ENV_DECRYPTION_PASSWD
+
+# make python3.5 as defualt python
+RUN rm -r /usr/bin/python
+RUN ln -s /usr/bin/python3.5 /usr/bin/python
+
+# install the mysql and mysql-client
+RUN apt-get install -y mysql-client libmysqlclient-dev
+
+# Upgrade pip
+RUN pip3 install -U pip
+
+# Install the commom dependency # mount to local dir
+RUN pip3 install git+https://$COMMON_REPO_USER:$COMMON_REPO_PASSWORD@bitbucket.org/avihoffer/ec_python_common.git
+
+# Install the requirments of the project
+RUN pip3 install -r /home/experchat/connect/requirements.txt
+RUN pip3 install -r /home/experchat/connect/requirements/testing.txt
+
+# base directory to execute the Commands
+WORKDIR /home/experchat/connect
+
+ENTRYPOINT celery -A config worker -l warn

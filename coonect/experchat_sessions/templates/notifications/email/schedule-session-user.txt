@@ -1,0 +1,16 @@
+{% load i18n %}
+Dear User,
+
+Expert Appointment have been successfully confirmed.
+
+Appointment Details:                                                               Expert Details :
+
+Name : {{ title }}                                                               {{ expert.display_name }}
+Date & Duration :  {{ scheduled_datetime }} {{ scheduled_duration }}
+Price : {{ estimated_revenue }}
+
+Link: http://www.google.com
+
+Team Experchat
+
+For Additional query , please contact support@experchat.com

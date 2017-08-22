@@ -1,0 +1,2 @@
+Session Rating(s)/Review Alert for {{ title }} {{ scheduled_datetime }}
+

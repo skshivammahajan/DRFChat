@@ -1,0 +1,1 @@
+Session Cancellation Alert : Sorry , {{ scheduled_duration }} {{ title}} Session Booked for{{ scheduled_datetime }} has been Cancelled by Expert.

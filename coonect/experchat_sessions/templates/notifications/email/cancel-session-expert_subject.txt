@@ -1,0 +1,1 @@
+Session Cancellation Alert {{ title }} {{ scheduled_datetime }}

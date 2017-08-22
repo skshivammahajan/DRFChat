@@ -1,0 +1,11 @@
+{
+    "user": {
+        "display_name": "{{ user.display_name }}",
+        "profile_photo": {% if user.profile_photo %}"{{ user.profile_photo }}" {% else %}null{% endif %}
+    },
+    "scheduled_datetime": "{{ scheduled_datetime }}",
+    "title": "{{ title }}",
+    "scheduled_duration": "{{ scheduled_duration }}",
+    "estimated_revenue": "{{ estimated_revenue }}",
+    "session_id": "{{ session_id }}"
+}
